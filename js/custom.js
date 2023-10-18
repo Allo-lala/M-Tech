@@ -45,7 +45,7 @@
       var ReviewsOwlItem = $('.reviews-carousel .owl-item').width();
 
       $('.reviews-carousel .owl-nav').css({'width' : (ReviewsOwlItem) + 'px'});
-    }
+    } 
 
     $(window).on("resize", ReviewsNavResize);
     $(document).on("ready", ReviewsNavResize);
